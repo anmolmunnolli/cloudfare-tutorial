@@ -1,0 +1,15 @@
+wrangler login // to login into cloudflare from cli
+wrangler generate [name] [template]
+schedule and fetch events(http requests) in index.js
+handles request return a response for the event.respondwith method
+response parameters is a body(string) and the initial headers
+wrangler dev - understand current state (preview cloudflare instance)
+deploy into preview cloudflare instance to work on local evnvironment
+wrangler publish - to publish into cloudflare instance
+to use own template return it as a string
+use webpack to import more modules, update the headers to html
+template.cf to use the header info
+[env.production]
+workers_dev=false
+wrangler publish -e production
+
